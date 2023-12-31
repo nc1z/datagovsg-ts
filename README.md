@@ -1,25 +1,25 @@
-# Typescript wrapper for public SG transport APIs
+# Typescript wrapper for real-time Data.gov.sg transport APIs
 
-A simple unofficial ts wrapper for easy integration with real-time transport-related data.gov.sg public APIs
+A simple unofficial ts wrapper for easy integration with transport-related data.gov.sg public APIs
 
-> ! Work in progress, the below instructions do not work for now
-
-> An API key is required, and is currently not obtainable via https://developers.data.gov.sg/
+> An API key is required, and is currently no longer obtainable via https://developers.data.gov.sg/
 
 ## Getting started
+
+> NOTE: Work in progress, the below npm command currently does not work
 
 In your project, run:
 
 ```bash
-npm i node-sg-transport
+npm i datagovsg-ts
 ```
 
-To get started, create a new instance of the wrapper, using your `API KEY`
+To get started, create a new instance of the wrapper, using your `Api Key`
 
 ```ts
-import { GovDataSource } from 'node-sg-transport'
+import { GovDataSource } from 'datagovsg-ts'
 
-const client = new GovDataSource('your-api-key')
+const client = new GovDataSource('<your-api-key>')
 ```
 
 ## Usage
