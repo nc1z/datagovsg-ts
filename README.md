@@ -1,8 +1,10 @@
 # NodeJs wrapper for public SG transport APIs
 
-A simple NodeJS typescript wrapper for easy integration with Singapore's real-time transport data.gov.sg APIs
+A simple unofficial nodeJS wrapper for easy integration with real-time transport-related data.gov.sg public APIs
 
 > ! Work in progress, the below instructions do not work for now
+
+> An API key is required, and is currently not obtainable via https://developers.data.gov.sg/
 
 ## Getting started
 
