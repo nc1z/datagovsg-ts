@@ -1,6 +1,6 @@
-# NodeJs wrapper for public SG transport APIs
+# Typescript wrapper for public SG transport APIs
 
-A simple unofficial nodeJS wrapper for easy integration with real-time transport-related data.gov.sg public APIs
+A simple unofficial ts wrapper for easy integration with real-time transport-related data.gov.sg public APIs
 
 > ! Work in progress, the below instructions do not work for now
 
