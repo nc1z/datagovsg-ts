@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "rootDir": ".",
+        "rootDir": "lib",
         "allowSyntheticDefaultImports": true,
         "sourceMap": true,
         "declaration": true,
@@ -18,6 +18,6 @@
         "forceConsistentCasingInFileNames": true,
         "lib": ["ES2023", "dom"]
     },
-    "include": ["lib", "test"],
+    "include": ["lib"],
     "exclude": ["node_modules/", "dist/", "build/"]
 }

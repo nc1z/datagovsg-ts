@@ -1,2 +1,1 @@
-// Export our main class here
-console.log('test')
+export { GovDataSource } from './gov'

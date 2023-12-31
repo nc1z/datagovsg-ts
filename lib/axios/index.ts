@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from 'axios'
 import { BASE_URL } from '../constants'
 import { handleClientError, handleClientRequest, handleClientResponse } from './interceptors'
 
-const client = axios.create({
+export const client = axios.create({
     baseURL: BASE_URL,
 })
 
