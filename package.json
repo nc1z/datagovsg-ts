@@ -12,8 +12,7 @@
         "lint": "lint-staged --config lint-staged.js",
         "format": "prettier --write .",
         "prettier": "prettier src -check",
-        "prepare": "husky install",
-        "start": "yarn build && node bin/trade-stream-aggregator.js"
+        "prepare": "husky install"
     },
     "keywords": [],
     "author": "",

@@ -18,6 +18,6 @@
         "forceConsistentCasingInFileNames": true,
         "lib": ["ES2023", "dom"]
     },
-    "include": ["src", "test"],
+    "include": ["lib", "test"],
     "exclude": ["node_modules/", "dist/", "build/"]
 }
