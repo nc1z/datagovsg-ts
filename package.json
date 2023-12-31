@@ -32,5 +32,8 @@
         "transform": {
             "\\.(ts|tsx)?$": "ts-jest"
         }
+    },
+    "dependencies": {
+        "axios": "^1.6.3"
     }
 }
